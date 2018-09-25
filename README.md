@@ -7,26 +7,26 @@
 - Get DeepStream_SDK_on_Jetson_1.5_pre-release.tbz2 from https://developer.nvidia.com/deepstream-jetson
 </br>
 
-'''C
+```C
 $ tar xpvf DeepStream_SDK_on_Jetson_1.5_pre-release.tbz2
 $ sudo tar xpvf deepstream_sdk_on_jetson.tbz2 -C /
 $ sudo tar xpvf deepstream_sdk_on_jetson_models.tbz2 -C /
 $ sudo ldconfig
-'''
+```
 
 </br>
 </br>
 
 # 3. Install sample
 
-'''C
+```C
 $ git clone https://github.com/AastaNV/DeepStream.git
 $ cp -r DeepStream/configs/* ${HOME}/configs/
 $ cp -r DeepStream/Model/* ${HOME}/Model
 $ cp -r parser_detectnet/ ${HOME}
 $ cd ${HOME}/parser_detectnet/
 $ make
-'''
+```
 
 </br>
 </br>
