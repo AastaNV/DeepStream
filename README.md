@@ -1,4 +1,5 @@
-# 1. Flash JetPack 3.2 
+# 1. Flash JetPack 3.2
+- Get JetPack 3.2 from https://developer.nvidia.com/embedded/jetpack-3_2_1
 </br>
 </br>
 # 2. Install DeepStream
