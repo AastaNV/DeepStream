@@ -65,9 +65,9 @@ clock-color=1;0;0;0;
 [primary-gie]
 enable=1
 net-scale-factor=1
-model-file=file:///home/nvidia/Model/DetectNet/detection.caffemodel
-proto-file=file:///home/nvidia/Model/DetectNet/detection.prototxt
-model-cache=file:///home/nvidia/Model/DetectNet/detection.caffemodel_b2_fp16.cache
+model-file=file:///home/nvidia/Model/DetectNet/detectnet.caffemodel
+proto-file=file:///home/nvidia/Model/DetectNet/detectnet.prototxt
+model-cache=file:///home/nvidia/Model/DetectNet/detectnet.caffemodel_b2_fp16.cache
 labelfile-path=file:///home/nvidia/Model/DetectNet/labels.txt
 
 net-stride=16
@@ -91,7 +91,7 @@ detect-color-class-ids=0;
 gie-unique-id=1
 parse-func=0
 parse-bbox-func-name=parse_bbox_custom_detectnet
-parse-bbox-lib-name=/media/nvidia/NVIDIA/parser_detectnet/libnvparsebbox.so
+parse-bbox-lib-name=/home/nvidia/parser_detectnet/libnvparsebbox.so
 is-classifier=0
 output-bbox-name=bboxes
 output-blob-names=coverage
